@@ -1,0 +1,48 @@
+import Image from "next/image";
+import Link from "next/link";
+import { FaFacebookF, FaTwitter, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+
+export default function Footer() {
+  return (
+    <div className="w-full h-fit bg-blue-950 text-white p-4">
+      <div className="flex-row sm:flex items-center justify-between">
+        <span className="pl-7 font-bold text-xl text-sky-300">
+          <Link href={"/"} className="flex gap-3">
+            <Image
+              src={"/blog.svg"}
+              alt="pic-logo"
+              width={25}
+              height={25}
+            ></Image>
+            THE BLOG
+          </Link>
+        </span>
+        <div className="flex flex-wrap gap-3 items-center py-4 sm:py-0">
+            <span className="text-sm">
+                Connect to us :
+            </span>
+          <Link href={"https://www.facebook.com/sharer/sharer.php?u=http://localhost:3000"}>
+            <FaFacebookF className="text-blue-500 h-5 w-5 hover:text-blue-400" />
+          </Link>
+          <Link href={"https://www.twitter.com/intent/tweet?url=http://localhost:3000"}>
+            <FaTwitter className="text-sky-500 h-5 w-5 hover:text-sky-400" />
+          </Link>
+          <Link href={"https://www.linkedin.com/sharing/share-offsite/?url=http://localhost:3000"}>
+            <FaLinkedin className="text-blue-500 h-5 w-5 hover:text-blue-400" />
+          </Link>
+          <Link href={"https://wa.me/?text=http://localhost:3000"}>
+            <FaWhatsapp className="text-green-500 h-5 w-5 hover:text-green-400" />
+          </Link>
+        </div>
+      </div>
+      <hr className="my-6 border-1 border-gray-300 md:mx-auto" />
+      <div className="flex-row sm:flex justify-end sm:py-4">
+        <span className="text-sm">
+          &copy; 2025{" "}
+          <span className="text-sky-300 font-semibold">THE BLOG</span> All
+          Rights Reserved.
+        </span>
+      </div>
+    </div>
+  );
+}
