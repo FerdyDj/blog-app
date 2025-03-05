@@ -8,6 +8,7 @@ import {
   FaLinkedin,
   FaWhatsapp,
 } from "react-icons/fa";
+import Footer from "@/components/footer";
 
 export default async function Page({
   params,
@@ -31,22 +32,22 @@ export default async function Page({
         <span className="text-sm font-bold">Bagikan</span>
         <div className="flex items-center mt-2 gap-3 mb-4">
           <Link
-            href={`https://www.facebook.com/sharer/sharer.php?u=http://localhost:3000/blog/${data.objectId}`}
+            href={`https://www.facebook.com/sharer/sharer.php?u=https://blog-app-inky.vercel.app/blog/blog/${data.objectId}`}
           >
             <FaFacebook className="w-8 h-8 text-blue-500 hover:text-blue-400 hover:cursor-pointer" />
           </Link>
           <Link
-            href={`https://www.twitter.com/intent/tweet?url=http://localhost:3000/blog/${data.objectId}`}
+            href={`https://www.twitter.com/intent/tweet?url=https://blog-app-inky.vercel.app/blog/blog/${data.objectId}`}
           >
             <FaTwitter className="w-8 h-8 text-sky-500 hover:text-sky-400 hover:cursor-pointer" />
           </Link>
           <Link
-            href={`https://www.linkedin.com/sharing/share-offsite/?url=http://localhost:3000/blog/${data.objectId}`}
+            href={`https://www.linkedin.com/sharing/share-offsite/?url=https://blog-app-inky.vercel.app/blog/blog/${data.objectId}`}
           >
             <FaLinkedin className="w-8 h-8 text-blue-500 hover:text-blue-400 hover:cursor-pointer" />
           </Link>
           <Link
-            href={`https://wa.me/?text=http://localhost:3000/blog/${data.objectId}`}
+            href={`https://wa.me/?text=https://blog-app-inky.vercel.app/blog/blog/${data.objectId}`}
           >
             <FaWhatsapp className="w-8 h-8 text-green-500 hover:text-green-400 hover:cursor-pointer" />
           </Link>
@@ -73,6 +74,7 @@ export default async function Page({
         ></div>
         <hr className="mb-8 mt-2 mr-4 border-2 w-[90%]" />
       </div>
+      <Footer />
     </div>
   );
 }

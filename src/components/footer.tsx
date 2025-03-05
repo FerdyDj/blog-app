@@ -21,16 +21,16 @@ export default function Footer() {
             <span className="text-sm">
                 Connect to us :
             </span>
-          <Link href={"https://www.facebook.com/sharer/sharer.php?u=http://localhost:3000"}>
+          <Link href={"https://www.facebook.com/sharer/sharer.php?u=https://blog-app-inky.vercel.app"}>
             <FaFacebookF className="text-blue-500 h-5 w-5 hover:text-blue-400" />
           </Link>
-          <Link href={"https://www.twitter.com/intent/tweet?url=http://localhost:3000"}>
+          <Link href={"https://www.twitter.com/intent/tweet?url=https://blog-app-inky.vercel.app"}>
             <FaTwitter className="text-sky-500 h-5 w-5 hover:text-sky-400" />
           </Link>
-          <Link href={"https://www.linkedin.com/sharing/share-offsite/?url=http://localhost:3000"}>
+          <Link href={"https://www.linkedin.com/sharing/share-offsite/?url=https://blog-app-inky.vercel.app"}>
             <FaLinkedin className="text-blue-500 h-5 w-5 hover:text-blue-400" />
           </Link>
-          <Link href={"https://wa.me/?text=http://localhost:3000"}>
+          <Link href={"https://wa.me/?text=https://blog-app-inky.vercel.app"}>
             <FaWhatsapp className="text-green-500 h-5 w-5 hover:text-green-400" />
           </Link>
         </div>
