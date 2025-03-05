@@ -8,7 +8,7 @@ export default function Feature() {
           Pepatah Mengenai Membaca
         </h2>
         <p className="px-8 pb-4">
-          "Membaca bukan sekadar tindakan menyerap kata-kata di halaman, tetapi
+          &quot;Membaca bukan sekadar tindakan menyerap kata-kata di halaman, tetapi
           sebuah perjalanan untuk pikiran dan jiwa. Dengan setiap lembar yang
           dibalik, kita melangkah ke dalam sepatu orang lain, menjelajahi dunia
           yang dibayangkan dan nyata. Setiap cerita menawarkan cermin bagi
@@ -19,7 +19,7 @@ export default function Feature() {
           kita dan siapa kita bisa menjadi. Bagi mereka yang berbicara tentang
           membaca, ini adalah jalan menuju penemuan tanpa batas—sebuah pengingat
           abadi bahwa semakin kita belajar, semakin kita menyadari betapa banyak
-          hal yang masih perlu dijelajahi."
+          hal yang masih perlu dijelajahi.&quot;
         </p>
       </div>
       <div className="flex h-[400px] w-full md:w-[50%] justify-center md:justify-end relative">

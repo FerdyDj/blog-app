@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { Middleware } from "@reduxjs/toolkit";
 import axios from "axios";
 import { login, logout } from "./userSlice";
