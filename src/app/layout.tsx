@@ -19,9 +19,6 @@ export const metadata: Metadata = {
   title: "The Blog App",
   description: "Your Blog In One Place",
   icons: "/blog.svg",
-  openGraph: {
-    images: "/blogapp.png",
-  },
 };
 
 export default function RootLayout({
